@@ -1,3 +1,5 @@
+use modules::ValidatorDriftMonitor;
+
 #[test]
 fn test_validator_drift_monitor() {
     let mut monitor = ValidatorDriftMonitor::new();
@@ -5,5 +7,5 @@ fn test_validator_drift_monitor() {
 
     monitor.report_drift(validator);
     assert!(!monitor.is_synced(validator));
-    assert_eq!(monitor.last_event(), "DriftDetected");
+    assert_eq!(monitor.last_event(), "DriftDetected(validator_01)");
 }
