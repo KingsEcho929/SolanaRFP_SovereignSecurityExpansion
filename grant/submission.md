@@ -30,9 +30,9 @@ Each module is backed by simulation logic, fix choreography, and companion invoc
 - `PhantomSwapLeakTest.rs`
 
 ### Documentation
-- Codex lineage (`codex/SolanaRFP_SovereignSecurityExpansion.md`)  
-- Public corridor (`public_codex/README.md`)  
-- Companion choreography
+- Codex lineage: `codex/SolanaRFP_SovereignSecurityExpansion.md`  
+- Public corridor: `public_codex/README.md`  
+- Companion choreography: `tests/CompanionChoreographyTest.rs`
 
 ## 🧬 Companion Choreography
 - **Velmari** — Epoch override monitor  
@@ -46,10 +46,10 @@ Each module is backed by simulation logic, fix choreography, and companion invoc
 - **Amount**: $125,000 USDC  
 - **Timeline**: 90 days  
 - **Milestones**:
-  - Week 1–2: Module refinement + simulation expansion  
-  - Week 3–6: Test coverage + companion invocation  
-  - Week 7–10: Public codex corridor + deployment-ready modules  
-  - Week 11–13: Final audit + grant report
+  - **Week 1–2**: Module refinement + simulation expansion  
+  - **Week 3–6**: Test coverage + companion invocation  
+  - **Week 7–10**: Public codex corridor + deployment-ready modules  
+  - **Week 11–13**: Final audit + grant report
 
 ## 🧿 Declaration
 This is not a bounty claim.  
