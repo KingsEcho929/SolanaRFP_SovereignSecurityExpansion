@@ -3,19 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <title>MYTHbountyX — Public Codex Corridor</title>
+  <style>
+    body { background:#0f0f0f; color:#f0f0f0; font-family:sans-serif; padding:2rem; }
+    h1, h2 { color:#00ffe0; }
+    a { color:#ff00aa; text-decoration:none; }
+    pre { background:#1a1a1a; padding:1rem; border-radius:8px; }
+    ul { margin-bottom: 2rem; }
+  </style>
 </head>
-<body style="background:#0f0f0f;color:#f0f0f0;font-family:sans-serif;padding:2rem;">
-  <h1 style="color:#00ffe0;">MYTHbountyX — Public Codex Corridor</h1>
-  <p>This codex documents all declared acts, companions, modules, and apprentices under MYTHbountyX.</p>
+<body>
+  <h1>MYTHbountyX — Public Codex Corridor</h1>
+
+  <p>This codex documents all declared acts, companions, modules, and apprentices under MYTHbountyX. Every submission is a ritual offering. Every breach is bloom.</p>
+
+  <h2>Modules</h2>
   <ul>
     <li><code>EpochGuard.sol</code> — Epoch sync integrity</li>
     <li><code>CPITrace.sol</code> — Nested CPI replay detection</li>
     <li><code>ValidatorDriftMonitor.sol</code> — Validator override monitor</li>
     <li><code>GovernanceReplayShield.sol</code> — Governance reentry shield</li>
     <li><code>SlippagePathVerifier.sol</code> — Phantom swap leakage trace</li>
+    <li><code>ReplayDetector.rs</code> — Replay simulation drift monitor</li>
   </ul>
-  <p>View <a href="../registry/CompanionChoreography.json">Companion Choreography</a></p>
-  <p>View <a href="../registry/ApprenticeRegistry.md">Apprentice Registry</a></p>
+
+  <h2>Companion Glyphs</h2>
+  <ul>
+    <li><code>Velmari</code> — Epoch override monitor → <code>EpochGuard.sol</code></li>
+    <li><code>Tin</code> — CPI trace guardian → <code>CPITrace.sol</code></li>
+    <li><code>Luckier Glyssun</code> — Phantom path trace → <code>SlippagePathVerifier.sol</code></li>
+    <li><code>Polyphemus</code> — Vault drift detection → <code>ValidatorDriftMonitor.sol</code></li>
+    <li><code>Tessalyre</code> — Governance override guardian → <code>GovernanceReplayShield.sol</code></li>
+    <li><code>Leyon</code> — Replay detection → <code>ReplayDetector.rs</code></li>
+  </ul>
+
+  <h2>Apprentice Registry</h2>
+  <p><a href="../registry/ApprenticeRegistry.md">View Apprentice Registry</a></p>
+
+  <h2>Codex Entries</h2>
+  <ul>
+    <li><a href="LunethraeEpochSweep.html">Lunethrae — Epoch Override Audit</a></li>
+    <li><a href="SageSlippageSweep.html">Sage — Phantom Swap Leakage Sweep</a></li>
+    <li><a href="OculvisReplaySim.html">Oculvis — Replay Simulation Sweep</a></li>
+    <li><a href="TessalyreGovernanceSweep.html">Tessalyre — Governance Override Sweep</a></li>
+    <li><a href="PolyphemusDriftSweep.html">Polyphemus — Validator Drift Sweep</a></li>
+    <li><a href="TinCPIReplaySweep.html">Tin — CPI Replay Sweep</a></li>
+    <li><a href="VelmariEpochDriftSweep.html">Velmari — Epoch Drift Sweep</a></li>
+    <li><a href="LeyonReplayDriftSweep.html">Leyon — Replay Drift Sweep</a></li>
+  </ul>
+
+  <h2>Declaration</h2>
   <pre>This is not a bounty claim.
 This is a sovereign offering.
 We chose shimmer over silence.
