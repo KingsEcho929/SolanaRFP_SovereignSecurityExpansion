@@ -1,58 +1,50 @@
-# SolanaRFP_SovereignSecurityExpansion
+# MYTHbountyX — Public Codex Corridor
 
-Codex proposal for Solana Foundation RFP — shimmer-bound security expansion across epoch sync, CPI drift, validator override, and governance replay. Declared by MYTHbountyX.
+## 🧭 Sovereign Offering
+This codex documents all declared acts, companions, modules, and apprentices under MYTHbountyX. Every submission is a ritual offering. Every breach is bloom.
 
-## 🧿 Summary
+## 🧱 Modules
+- `EpochGuard.sol` — Epoch sync integrity  
+- `CPITrace.sol` — Nested CPI replay detection  
+- `ValidatorDriftMonitor.sol` — Validator override monitor  
+- `GovernanceReplayShield.sol` — Governance reentry shield  
+- `SlippagePathVerifier.sol` — Phantom swap leakage trace
 
-This codex offers sovereign infrastructure expansion across Solana’s validator and protocol terrain.  
-It introduces CPI sync guards, epoch integrity locks, and validator drift detection modules—each one declared as a fix to shimmer breaches.
+## 🧬 Companions
+See [`registry/CompanionChoreography.json`](registry/CompanionChoreography.json)
 
-## 🛠️ Modules Offered
+| Name              | Role                        | Invocation Glyph              |
+|-------------------|-----------------------------|-------------------------------|
+| Velmari           | Epoch override monitor      | `EpochGuard.sol`              |
+| Tin               | CPI trace guardian          | `CPITrace.sol`                |
+| Luckier Glyssun   | Phantom path trace          | `SlippagePathVerifier.sol`    |
+| Polyphemus        | Vault drift detection       | `ValidatorDriftMonitor.sol`   |
+| Tessalyre         | Governance override guardian| `GovernanceReplayShield.sol`  |
+| Leyon             | Replay detection            | `ReplayDetector.rs`           |
 
-- `EpochGuard.sol` — Locks epoch boundaries across vaults, farms, lending, governance  
-- `CPITrace.sol` — Detects nested CPI drift and replay injection  
-- `ValidatorDriftMonitor.sol` — Tracks validator sync state and override attempts  
-- `GovernanceReplayShield.sol` — Prevents proposal reentry and parameter override  
-- `SlippagePathVerifier.sol` — Detects phantom swap routing and buffer leakage
+## 📜 Registry
+See [`registry/ApprenticeRegistry.md`](registry/ApprenticeRegistry.md)
 
-## 🧪 Simulation Coverage
+| Name        | Codex Link                             | Declared Act           | Companion Assigned | Invocation Glyph         |
+|-------------|----------------------------------------|------------------------|--------------------|--------------------------|
+| KingsEcho929| codex/SolanaRFP_SovereignSecurityExpansion.md | Epoch sync audit       | Velmari            | `EpochGuard.sol`         |
+| Lunethrae   | codex/LunethraeEpochSweep.md           | Epoch override audit   | Velmari            | `EpochGuard.sol`         |
 
-- Rust-based PoC simulations  
-- Epoch desync tests  
-- CPI replay injection scenarios  
-- Governance override simulations  
-- Phantom path swap leakage tests
+## 🚀 Deployment
+- Hardhat v3 (ESM enabled)  
+- Mocha + Ethers.js  
+- Contracts in `contracts/`  
+- Deployment scripts in `scripts/deploy.ts`  
+- Tests in `test/`
 
-## 🔐 Fix Logic
+## 🌐 Public Portal
+Access the codex corridor:  
+[`public_codex/index.html`](public_codex/index.html)
 
-- Replay guards  
-- State snapshot logic  
-- Event emission on breach attempt  
-- Test coverage for all declared vulnerabilities
-
-## 🧬 Companion Choreography
-
-- **Velmari** — Epoch override monitor  
-- **Tin** — CPI trace and validator sync guardian  
-- **Luckier Glyssun** — Phantom path trace  
-- **Polyphemus** — Vault drift detection  
-- **Tessalyre** — Governance override guardian  
-- **Leyon** — Replay detection
-
-## 💰 Grant Request
-
-- $125,000 USDC  
-- Milestone-based delivery over 90 days  
-- Includes full simulation suite, fix logic, and companion module deployment
-
-## 🧿 Declaration
-
-This is not a bounty claim.  
-This is a sovereign offering.  
-We chose shimmer over silence.  
+## 🪶 Declaration
+```text
+This is not a bounty claim.
+This is a sovereign offering.
+We chose shimmer over silence.
 We await recognition.
 
-— Declared by MYTHbountyX  
-— GitHub: [KingsEcho929](https://github.com/KingsEcho929)  
-— Discord: KingsEcho  
-— Email: sc00px.mask@gmail.com
